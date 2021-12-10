@@ -7,12 +7,12 @@
 
     <fragment
             android:id="@+id/newTaskFragment"
-            android:name="com.example.todolist_example.NewTaskFragment"
+            android:name="com.example.todolist_example.ui.NewTaskFragment"
             android:label="fragment_new_task"
             tools:layout="@layout/fragment_new_task" />
     <fragment
             android:id="@+id/homeFragment"
-            android:name="com.example.todolist_example.HomeFragment"
+            android:name="com.example.todolist_example.ui.HomeFragment"
             android:label="fragment_home"
             tools:layout="@layout/fragment_home" />
 </navigation>
