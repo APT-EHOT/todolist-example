@@ -31,4 +31,17 @@ public class Task {
     public String getTaskDescription() {
         return taskDescription;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "id=" + id +
+                ", taskHeader='" + taskHeader + '\'' +
+                ", taskDescription='" + taskDescription + '\'' +
+                '}';
+    }
 }
